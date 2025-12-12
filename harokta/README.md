@@ -52,11 +52,11 @@ Run the script with a HAR file:
 
 Example:
 
-    python3 harokta.py fake_okta_test.har
+    python3 harokta.py okta_test.har
 
 This generates a report file:
 
-    fake_okta_test_okta_report.txt
+    okta_test_okta_report.txt
 
 ---
 
