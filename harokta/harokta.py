@@ -1,6 +1,4 @@
 
-```python
-
 #!/usr/bin/env python3
 """
 Analyze a HAR file for Okta SSO-related errors using Haralyzer,
