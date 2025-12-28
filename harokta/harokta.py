@@ -313,7 +313,7 @@ def main():
             f.write("\n".join(report_lines))
         sys.exit(1)
 
-    # ✅ FIX: Haralyzer may expose either full HAR or already the inner "log" object
+    # Haralyzer may expose either full HAR or already the inner "log" object
     har_root = har_parser.har_data
     log_obj = har_root.get("log", har_root)
     entries = log_obj.get("entries", [])
